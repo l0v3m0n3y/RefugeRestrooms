@@ -177,5 +177,4 @@ public:
         return make_api_call("/v1/restrooms" + build_query_params(params), "GET");
     }
 };
-
 #endif
